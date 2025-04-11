@@ -1,0 +1,35 @@
+/* Color variables go here */
+:root {
+    --mview: 425px;
+    --tview: 768px;
+    --lview: 1024px;
+}
+
+* {
+  box-sizing: border-box;
+  z-index: 5;
+}
+
+html {
+  font-size: 14px; /* Explicitly setting the value of rem */
+
+  @media (min-width: var(--tview)) {
+    font-size: 16px;
+  }
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+  background-image: url(../assets/bgs/main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
