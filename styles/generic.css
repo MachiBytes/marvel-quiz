@@ -10,6 +10,11 @@
   z-index: 5;
 }
 
+@font-face {
+  font-family: 'Refrigerator';
+  src: url('../assets/font/RefrigeratorDeluxe.otf') format('opentype');
+}
+
 html {
   font-size: 14px; /* Explicitly setting the value of rem */
 
@@ -23,7 +28,7 @@ body {
   width: 100vw;
   position: relative;
   overflow-x: hidden;
-  background-image: url(../assets/bgs/main.png);
+  background-image: url(../assets/bgs/HomeBG.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,5 +36,15 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none;;
+}
+
+
+h1 {
+  font-family: 'Refrigerator', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
