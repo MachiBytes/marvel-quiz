@@ -1,8 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
 :root {
   --fontWhite: #f0f0f0;
   --fontYellow: #fcd72e;
+}
+
+@font-face {
+  font-family: 'RefrigeratorDeluxe';
+  src: url('../assets/font/RefrigeratorDeluxe.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -14,7 +19,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(../assets/bgs/hero.png);
+  background-image: url(../assets/bgs/ResultsBG.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -22,7 +27,7 @@ body {
   align-items: center;
   padding: 50px 100px;
   color: var(--fontWhite);
-  font-family: "Inter", sans-serif;
+  font-family: "RefrigeratorDeluxe", sans-serif;
   overflow: hidden;
 }
 
@@ -71,10 +76,11 @@ a button {
   margin-bottom: 10px;
   padding: 10px 50px;
   font-weight: 800;
-  background-image: url(../assets/misc/button.png);
+  background-image: url(../assets/ui/GrayButton.png);
   background-size: cover;
   border: 0;
-  box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 7px 9px 0px 0px rgba(0, 0, 0, 0.5);
+  font-size: 24px;
 }
 
 #view-scoring {
@@ -160,5 +166,6 @@ img {
 
   a button {
     padding: 10px 20px;
+    font-size: 16px;
   }
 }
