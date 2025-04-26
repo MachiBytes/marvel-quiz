@@ -1,0 +1,146 @@
+:root {
+  --btnColor: #e0e6f5;
+  --btnActiveColor: #1e202c;
+  --borderColor: #ffce32;
+  --fontWhite: #f0f0f0;
+  --btnFontWhite: #dee5f4;
+  --btnFontBlack: #1e202c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: url(../assets/bgs/quiz.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 70vh;
+  width: min(85vw, 1000px);
+  position: relative;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700px;
+  color: var(--fontWhite);
+  margin-bottom: 35px;
+}
+
+#question {
+  font-size: 1.25rem;
+  font-weight: 700px;
+  color: var(--fontWhite);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content-box #line {
+  width: 60%;
+}
+
+.choice-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.parallelogram {
+  width: 400px;
+  height: 50px;
+  transform: skew(-50deg);
+  background-color: var(--btnColor);
+  border: none;
+  padding: 0 15px;
+}
+
+.parallelogram.changed {
+  background-color: var(--btnActiveColor);
+  border: 5px solid var(--borderColor);
+  border-width: 5px 10px;
+  color: var(--btnFontWhite);
+}
+
+.unskew {
+  font-size: 1rem;
+  font-weight: 700px;
+  transform: skew(50deg);
+  display: inline-block;
+}
+
+a#next, a#submit, a#back {
+    position: absolute;
+    bottom: 0;
+}
+
+a#next, a#submit {
+    right: 0;
+}
+
+a#back {
+    left: 0;
+}
+
+@media screen and (max-width: 1020px) {
+  html {
+    font-size: 12px;
+  }
+
+  .content-box {
+    height: 90vh;
+  }
+
+  .choice-box {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .parallelogram {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  button.parallelogram {
+    margin: 0 auto;
+  }
+
+  a img {
+    height: 3rem;
+    width: auto;
+  }
+}
+

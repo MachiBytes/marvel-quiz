@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizzes - X</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/quiz.css" />
+    <script src="scripts/quiz.js" defer></script>
+  </head>
+  <body>
+    <div class="content-box">
+      <h2>Question XX</h2>
+      <p id="question">Question</p>
+      <img id="line" src="../assets/misc/quiz-line.svg" alt="" />
+      <div class="choice-box">
+        <div class="row">
+          <button onclick="toggleStyle(`2`)" id="2" class="parallelogram">
+            <span class="unskew">Answer 2</span>
+          </button>
+          <button onclick="toggleStyle(`4`)" id="4" class="parallelogram">
+            <span class="unskew">Answer 4</span>
+          </button>
+        </div>
+        <div class="row">
+          <button onclick="toggleStyle(`1`)" id="1" class="parallelogram">
+            <span class="unskew">Answer 1</span>
+          </button>
+          <button onclick="toggleStyle(`3`)" id="3" class="parallelogram">
+            <span class="unskew">Answer 3</span>
+          </button>
+        </div>
+          <button onclick="toggleStyle(`5`)" id="5" class="parallelogram">
+            <span class="unskew">Answer 5</span>
+          </button>
+      </div>
+      <a id="back"><img src="assets/misc/back_but.png" alt="Back button"></a>
+      <a id="next"><img src="assets/misc/next_but.png" alt="Next button"></a>
+      <a id="submit"><img src="assets/misc/submit-but.png" alt="Submit button"></a>
+    </div>
+  </body>
+</html>

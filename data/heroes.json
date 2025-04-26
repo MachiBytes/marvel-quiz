@@ -1,0 +1,86 @@
+{
+  "Groot": {
+    "range": [20, 27],
+    "classification": "Neutral",
+    "description": "You're gentle, loyal, and quietly powerful. You communicate more through presence than words, and your empathy often leads you to protect those around you. You don't seek the spotlight—but when you're needed, you stand tall.",
+    "url": "../assets/heroes/groot_prestige.png"
+  },
+  "Winter Soldier": {
+    "range": [28, 34],
+    "classification": "Antihero",
+    "description": "You're a lone wolf with a complicated past and a strong sense of justice. You may not always play by the rules, but your heart is in the right place. Deep inside, you're searching for peace and redemption.",
+    "url": "../assets/heroes/WinterSoldier.png"
+  },
+  "Psylocke": {
+    "range": [35, 41],
+    "classification": "Shadow Hero",
+    "description": "You're sharp, stealthy, and confident in your own power. You often work in the background, striking with precision and purpose. Though you operate in the shadows, your loyalty and strength make you a force for good.",
+    "url": "../assets/heroes/Psylocke.png"
+  },
+  "Spider-Man": {
+    "range": [42, 48],
+    "classification": "Hero",
+    "description": "You're relatable, selfless, and always trying to do the right thing—even when it's hard. You carry the weight of responsibility with humor and heart. People look up to you because you never give up, no matter how tough life gets.",
+    "url": "../assets/heroes/SpiderMan.png"
+  },
+  "Black Panther": {
+    "range": [49, 55],
+    "classification": "Hero/King",
+    "description": "You are noble, composed, and wise beyond your years. You balance tradition and progress, always putting the needs of others before yourself. Leadership comes naturally to you, because you lead with purpose and respect.",
+    "url": "../assets/heroes/BlackPanther.png"
+  },
+  "Thor": {
+    "range": [56, 61],
+    "classification": "Noble Warrior",
+    "description": "You're powerful, passionate, and driven by honor. You thrive in challenges and battle, yet underneath the strength is a heart that values loyalty and love. You are at your best when you're fighting for something greater than yourself.",
+    "url": "../assets/heroes/Thor.png"
+  },
+  "Iron Man": {
+    "range": [62, 68],
+    "classification": "Hero",
+    "description": "You're ambitious, witty, and always thinking ten steps ahead. You lead with innovation and confidence, even if your ego sometimes gets in the way. But when it matters, you'll sacrifice everything to protect the people you care about.",
+    "url": "../assets/heroes/IronMan.png"
+  },
+  "Captain America": {
+    "range": [69, 74],
+    "classification": "Pure Hero",
+    "description": "You're principled, courageous, and stand firm in your beliefs no matter the cost. Others look to you for guidance because you never compromise your values. You're the kind of person who would jump on a grenade to save someone else.",
+    "url": "../assets/heroes/CaptainAmerica.png"
+  },
+  "Doctor Strange": {
+    "range": [75, 80],
+    "classification": "Mystic Hero",
+    "description": "You're intelligent, curious, and shaped by hardship. Your journey from ego to enlightenment taught you to think beyond the physical world. Now, you protect reality itself—blending logic, magic, and purpose.",
+    "url": "../assets/heroes/DoctorStrange.png"
+  },
+  "Magneto": {
+    "range": [81, 85],
+    "classification": "Antihero",
+    "description": "You are powerful, driven, and refuse to be silenced. You fight for justice in your own way, even if the world sees you as a villain. At your core, you protect your people fiercely and won't back down from what you believe in.",
+    "url": "../assets/heroes/Magneto.png"
+  },
+  "Scarlet Witch": {
+    "range": [86, 90],
+    "classification": "Unstable",
+    "description": "You're emotional, intense, and shaped by deep personal loss. Your powers are immense, but your heart sometimes overrides your reason. You're just trying to hold your world together—even if it breaks everything else.",
+    "url": "../assets/heroes/ScarletWitch.png"
+  },
+  "Loki": {
+    "range": [91, 93],
+    "classification": "Villain",
+    "description": "You're clever, mischievous, and always playing your own game. You bend rules and twist expectations because you're tired of being underestimated. You might stir chaos, but there's always a deeper reason behind it.",
+    "url": "../assets/heroes/Loki.png"
+  },
+  "Hela": {
+    "range": [94, 97],
+    "classification": "Tyrant",
+    "description": "You're commanding, fierce, and unapologetically ambitious. You believe in your strength and your right to power, no matter who stands in your way. To you, weakness is a flaw—and mercy is optional.",
+    "url": "../assets/heroes/Hela.png"
+  },
+  "Venom": {
+    "range": [98, 100],
+    "classification": "Monster",
+    "description": "You're wild, unpredictable, and fueled by instinct. The world might call you a monster, but deep down you have a moral code—just not a conventional one. You protect what's yours with unmatched intensity, even if it scares people.",
+    "url": "../assets/heroes/Venom.png"
+  }
+}

@@ -1,0 +1,223 @@
+{
+    "1": {
+      "question": "What's your ideal weekend activity?",
+      "answers": {
+        "1": "Meditating alone in the forest",
+        "2": "Training at the gym",
+        "3": "Volunteering in the community",
+        "4": "Hosting a tech party",
+        "5": "Plotting your next big move"
+      },
+      "answer": 0
+    },
+    "2": {
+      "question": "How do you handle betrayal?",
+      "answers": {
+        "1": "Forgive and move on",
+        "2": "Keep your distance but don't seek revenge",
+        "3": "Try to understand their reason",
+        "4": "Retaliate with a clever comeback",
+        "5": "Show them not to mess with you again"
+      },
+      "answer": 0
+    },
+    "3": {
+      "question": "What's your go-to superpower?",
+      "answers": {
+        "1": "Healing factor",
+        "2": "Super strength",
+        "3": "Agility and enhanced senses",
+        "4": "Technomagic",
+        "5": "Mind control"
+      },
+      "answer": 0
+    },
+    "4": {
+      "question": "Pick a favorite environment:",
+      "answers": {
+        "1": "Nature and trees",
+        "2": "Gritty urban alley",
+        "3": "Bright city rooftop",
+        "4": "Futuristic lab",
+        "5": "Dark mystical realm"
+      },
+      "answer": 0
+    },
+    "5": {
+      "question": "How do you feel about rules?",
+      "answers": {
+        "1": "Nature's rules matter most",
+        "2": "Rules are flexible",
+        "3": "Rules help society",
+        "4": "Break 'em if you must",
+        "5": "Rules are made to be crushed"
+      },
+      "answer": 0
+    },
+    "6": {
+      "question": "You're in a team. What role do you take?",
+      "answers": {
+        "1": "Quiet supporter",
+        "2": "Reluctant warrior",
+        "3": "Moral compass",
+        "4": "Strategic leader",
+        "5": "Secret manipulator"
+      },
+      "answer": 0
+    },
+    "7": {
+      "question": "How do others describe you?",
+      "answers": {
+        "1": "Gentle and strange",
+        "2": "Brooding but loyal",
+        "3": "Friendly and kind",
+        "4": "Confident and ambitious",
+        "5": "Powerful and intimidating"
+      },
+      "answer": 0
+    },
+    "8": {
+      "question": "What motivates you most?",
+      "answers": {
+        "1": "Balance and peace",
+        "2": "Redemption",
+        "3": "Doing what's right",
+        "4": "Innovation and legacy",
+        "5": "Chaos or revenge"
+      },
+      "answer": 0
+    },
+    "9": {
+      "question": "A villain threatens your home. What do you do?",
+      "answers": {
+        "1": "Defend without hesitation",
+        "2": "Strike first",
+        "3": "Rally allies",
+        "4": "Outsmart them",
+        "5": "Destroy them"
+      },
+      "answer": 0
+    },
+    "10": {
+      "question": "What do you fear most?",
+      "answers": {
+        "1": "Losing harmony",
+        "2": "Losing control",
+        "3": "Failing to protect",
+        "4": "Becoming irrelevant",
+        "5": "Yourself"
+      },
+      "answer": 0
+    },
+    "11": {
+      "question": "Choose your weapon:",
+      "answers": {
+        "1": "Nature itself",
+        "2": "A sniper rifle",
+        "3": "Web shooters",
+        "4": "Arc reactor suit",
+        "5": "Magic or dark energy"
+      },
+      "answer": 0
+    },
+    "12": {
+      "question": "What's your leadership style?",
+      "answers": {
+        "1": "Lead by quiet example",
+        "2": "Lead when necessary",
+        "3": "Lead with moral clarity",
+        "4": "Lead with vision",
+        "5": "Lead by fear"
+      },
+      "answer": 0
+    },
+    "13": {
+      "question": "What's your relationship with family like?",
+      "answers": {
+        "1": "Protective of them",
+        "2": "Complicated and painful",
+        "3": "Deeply rooted in love",
+        "4": "Competitive but caring",
+        "5": "Tragic or broken"
+      },
+      "answer": 0
+    },
+    "14": {
+      "question": "If you had a motto, what would it be?",
+      "answers": {
+        "1": "I am one with the universe.",
+        "2": "Trust no one.",
+        "3": "With great power…",
+        "4": "Genius is the key to survival.",
+        "5": "Kneel."
+      },
+      "answer": 0
+    },
+    "15": {
+      "question": "What's your flaw?",
+      "answers": {
+        "1": "Too passive",
+        "2": "Prone to violence",
+        "3": "Naïve at times",
+        "4": "Arrogant",
+        "5": "Unstable"
+      },
+      "answer": 0
+    },
+    "16": {
+      "question": "How do you react under pressure?",
+      "answers": {
+        "1": "Stay grounded",
+        "2": "Rage quietly",
+        "3": "Push forward",
+        "4": "Think your way out",
+        "5": "Explode"
+      },
+      "answer": 0
+    },
+    "17": {
+      "question": "What's your favorite color?",
+      "answers": {
+        "1": "Green",
+        "2": "Black",
+        "3": "Red",
+        "4": "Gold",
+        "5": "Purple"
+      },
+      "answer": 0
+    },
+    "18": {
+      "question": "Pick a quote:",
+      "answers": {
+        "1": "I am Groot.",
+        "2": "I'm with you till the end of the line.",
+        "3": "Friendly neighborhood Spider-Man.",
+        "4": "Sometimes you gotta run before you can walk.",
+        "5": "Kneel."
+      },
+      "answer": 0
+    },
+    "19": {
+      "question": "What kind of legacy do you want to leave?",
+      "answers": {
+        "1": "Peace and growth",
+        "2": "A second chance",
+        "3": "Hope and justice",
+        "4": "Innovation and impact",
+        "5": "Power and fear"
+      },
+      "answer": 0
+    },
+    "20": {
+      "question": "If you weren't a hero/villain, what would you be?",
+      "answers": {
+        "1": "Gardener or musician",
+        "2": "Spy or mercenary",
+        "3": "Teacher or nurse",
+        "4": "CEO or innovator",
+        "5": "Ruler or god"
+      },
+      "answer": 0
+    }
+  }
+  
