@@ -89,7 +89,19 @@ img {
   bottom: 0;
   right: 0;
   z-index: -1;
+  animation: slideInRight 0.3s linear forwards;
 }
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
 
 @media screen and (max-width: 1020px) {
     img {
