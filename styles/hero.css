@@ -37,6 +37,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 h3 {
@@ -95,7 +96,7 @@ img {
   bottom: 0;
   right: 0;
   z-index: -1;
-  animation: slideInRight 0.3s linear forwards;
+  animation: slideInRight 0.15s linear forwards;
 }
 
 @keyframes slideInRight {
@@ -107,7 +108,18 @@ img {
   }
 }
 
+#back_href {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+}
 
+#back_href #back_button {
+  position: relative;
+  height: auto;
+}
 
 @media screen and (max-width: 1020px) {
     img {
