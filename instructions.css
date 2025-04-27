@@ -1,6 +1,148 @@
 body {
-background-image: url(../assets/bgs/InstructionsBG.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
+    background-image: url(../assets/bgs/InstructionsPlain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Refrigerator Deluxe', sans-serif;
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+  }
+  
+  .back-button {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .back-icon {
+    width: 75px;
+    height: 45px;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .back-button:hover .back-icon {
+    transform: translateX(-5px);
+  }
+  
+  /* Remove the ::before pseudo-element since we're using an img tag */
+  .instructions-container {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    max-width: 45%;
+    text-align: left;
+  }
+  
+  h1 {
+    font-family: 'Refrigerator';
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  .instruction-text {
+    margin-bottom: 40px;
+  }
+  
+  .instruction-text p {
+    font-family: 'Refrigerator';
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .start-quiz-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #D9D9D9;
+    color: #000;
+    border: none;
+    font-family: 'Refrigerator';
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  .start-quiz-btn:hover {
+    background-color: #c4c4c4;
+    transform: scale(1.05);
+  }
+  
+  .view-scoring {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    text-decoration: underline;
+    font-family: 'Refrigerator Deluxe', sans-serif;
+    font-size: 1rem;
+  }
+  
+  .characters-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 45%;
+    background-image: url(../assets/ui/chars.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    z-index: 1;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .instructions-container {
+      max-width: 80%;
+      left: 50px;
+    }
+  
+    .back-icon {
+      width: 60px;
+      height: 35px;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+  
+    h1 {
+      font-size: 2.2rem;
+    }
+  
+    .instruction-text p {
+      font-size: 1.5rem;
+    }
+  
+    .start-quiz-btn {
+      padding: 12px 30px;
+      font-size: 1.6rem;
+    }
+  
+    .characters-right {
+      width: 100%;
+      opacity: 0.5;
+    }
+  }
+    

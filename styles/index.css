@@ -1,6 +1,159 @@
+/* Main styles for Marvel Character Quiz */
 body {
-    background-image: url(../assets/bgs/HomeBG.png);
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .quiz-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/bgs/HomePlain.png);
     background-size: cover;
+    background-position: center;
+    background-color: #0a0e23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quiz-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(10, 14, 35, 0.4), rgba(10, 14, 35, 0.2));
+  }
+  
+  .content-wrapper {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    max-width: 1000px;
+    margin-top: -150px;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 0px;
+    line-height: 1;
+  }
+  
+  .tagline {
+    font-size: 1.1rem;
+    margin-bottom: 80px; /* Reduced space between tagline and button */
+    color: #ffecbd;
+    font-weight: 500;
+    opacity: 0.9;
+  }
+  
+  .btn-ready {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: none;
+    color: #fff;
+    padding: 15px 60px;
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    margin-top: -50px; /* Adjust this value to move the button up or down */
+  }
+  
+  .ready-icon {
+    width: 170px;
+    height: 50px;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-ready:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Character images */
+  .characters-left, .characters-right {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: bottom;
+  }
+  
+  .characters-left {
+    left: 0;
+    height: 85%;
+    width: 37%;
+    background-image: url(../assets/char/HeroGroupLeft.png);
+  }
+  
+  .characters-right {
+    right: 0;
+    height: 95%;
+    width: 35%;
+    background-image: url(../assets/char/HeroGroupRight.png);
+  }
+  
+  .footer-text {
+    position: absolute;
+    bottom: 15px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    z-index: 10;
+  }
+  
+  .footer-text a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+      margin-top: -80px;
     }
+    
+    .tagline {
+      font-size: 1rem;
+    }
+    
+    .characters-left, .characters-right {
+      height: 80;
+      width: 60%;
+      opacity: 100;
+    }
+    
+    .content-wrapper {
+      margin-top: -80px; /* Adjusted for mobile */
+    }
+    
+    .btn-ready {
+      margin-top: 60px; /* Adjust for mobile */
+      padding: 12px 40px;
+      margin-top: -50px;
+    }
+    
+    .ready-icon {
+      width: 110px;
+      height: 40px;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+  }
+  
